@@ -5,6 +5,10 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * 用来封装每个任务与子任务之间的关系 对象
+ *
+ */
 public class Digraph {
     private Set<Task> tasks;
     private Map<Task, Set<Task>> map;
